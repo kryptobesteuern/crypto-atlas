@@ -29,7 +29,7 @@ Crypto Atlas is a comprehensive directory of European cryptocurrency and blockch
 
    ```bash
    git clone https://github.com/kryptobesteuern/crypto-atlas.git
-   cd cryptoatlas
+   cd crypto-atlas
    ```
 
 2. Install dependencies
