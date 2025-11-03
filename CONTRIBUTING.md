@@ -23,7 +23,7 @@ The most common contribution is adding a new European crypto service to our dire
 2. Clone your forked repository to your local machine:
    ```bash
    git clone https://github.com/your-username/crypto-atlas.git
-   cd cryptoatlas
+   cd crypto-atlas
    ```
 
 ### Step 2: Add the Service
