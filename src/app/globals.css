@@ -1,0 +1,75 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: var(--font-inter);
+  --font-heading: var(--font-montserrat);
+}
+
+:root {
+  /* Primary - Teal/Cyan */
+  --primary: #25a6b8;        /* Main brand teal */
+  --primary-dark: #1e8a99;   /* Darker teal */
+  --primary-light: #3fbdd0;  /* Lighter teal for hover */
+
+  /* Secondary - Blue */
+  --secondary: #2563eb;      /* Bright blue accent */
+  --secondary-dark: #1a47c4; /* Darker blue */
+  --secondary-light: #4c78f6; /* Lighter blue */
+
+  /* Additional accents */
+  --accent: #ff7f50;         /* Orange accent */
+  --accent-purple: #6a4c93;  /* Purple accent */
+  --success: #00c896;        /* Success green */
+  --warning: #ffcc00;        /* Warning yellow */
+
+  /* Legacy EU colors for backward compatibility */
+  --eu-blue: #003399;
+  --eu-yellow: #ffcc00;
+
+  --background: #ffffff;
+  --foreground: #171717;
+
+  --card-bg: #f8f9fa;
+  --card-hover: #f0f2f5;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+    --card-bg: #1a1a1a;
+    --card-hover: #2a2a2a;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-sans);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+}
+
+.eu-gradient {
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+}
+
+.atlas-card {
+  border-radius: 0.75rem;
+  background-color: var(--card-bg);
+  transition: all 0.3s ease;
+}
+
+.atlas-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  background-color: var(--card-hover);
+}

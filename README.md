@@ -1,1 +1,108 @@
-# crypto-atlas
+# 🪙 Crypto Atlas
+
+![Crypto Atlas Banner](public/europe-logo.svg)
+
+## 🌍 About
+
+Crypto Atlas is a comprehensive directory of European cryptocurrency and blockchain services and tools. Our mission is to showcase the vibrant European crypto ecosystem and help users discover innovative blockchain solutions developed in Europe.
+
+**🔗 [Visit Crypto Atlas](https://cryptoatlas.eu)**
+
+## ✨ Features
+
+- Curated collection of European crypto services
+- Focus on innovative blockchain and cryptocurrency solutions
+- Categorized by functionality (Exchanges, Wallets, DeFi, NFT, etc.)
+- Country flags indicating company headquarters
+- Clean, responsive UI for easy browsing
+- Open-source and community-driven
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18+ and npm
+
+### Installation
+
+1. Clone the repository
+
+   ```bash
+   git clone https://github.com/kryptobesteuern/crypto-atlas.git
+   cd cryptoatlas
+   ```
+
+2. Install dependencies
+
+   ```bash
+   npm install
+   ```
+
+3. Run the development server
+
+   ```bash
+   npm run dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
+
+## 🤝 Contributing
+
+We welcome contributions from the community! Here's how you can help:
+
+### Adding a New Crypto Service
+
+1. Fork the repository
+2. Edit the `src/data/services.ts` file to add a new service to the appropriate category
+3. Follow this format:
+   ```typescript
+   {
+     name: "Service Name",
+     description: "Brief description of the service (max 150 characters)",
+     icon: "🪙", // Choose an appropriate emoji
+     country: "🇪🇺", // Country flag emoji where the company is headquartered
+     link: "https://example.com/",
+   }
+   ```
+4. Submit a pull request with your changes
+
+### Guidelines for Adding Services
+
+- **European Focus**: The service should be developed by a company headquartered in Europe\*.
+- **Active Service**: The service should be currently active, usable and accessible (not just a waitlist)
+- **Crypto/Blockchain Component**: The service should have an innovative blockchain or cryptocurrency solution as a significant part of its offering
+- **Accurate Description**: Provide a clear, concise description of what the service does. Mention at least one crypto feature to make it clear why they are in the list. Try to keep the description short.
+- **Appropriate Category**: Place the service in the most relevant category
+
+If you're unsure about which category to use or need to suggest a new one, please open an issue for discussion.
+
+\*If the company has its headquarters in Europe but is registered somewhere else, please add separate hq and legal attributes
+
+### Other Contributions
+
+- Improve the UI/UX
+- Fix bugs or issues
+- Enhance documentation
+- Add new features
+
+1. Please create an issue first describing your proposed changes if they fall into the 'other contributions' category.
+2. Include mockups, photos or sketches if possible
+3. Wait for discussion and approval before submitting a PR
+4. For minor fixes (typos, small CSS adjustments), PRs can be submitted directly
+
+This helps us collaborate effectively and ensures your time is well spent.
+
+## 📝 License
+
+This project is licensed under the GPL License - see the LICENSE file for details.
+
+## 🙏 Acknowledgements
+
+- All the amazing European crypto and blockchain companies and services
+- The open-source community
+- [Next.js](https://nextjs.org/) for the framework
+- [Tailwind CSS](https://tailwindcss.com/) for styling
+
+---
+
+Made with ❤️ in Europe 🇪🇺
